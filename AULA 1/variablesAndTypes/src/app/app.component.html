@@ -1,1 +1,19 @@
-<h1>Aula 01 - Variáveis e Tipos</h1>
+<h1>Aula 04 - INTERFACES E MÓDULOS </h1>
+
+
+<label for="">
+    Numero 1:
+    <input type="number" [(ngModel)]="numero1" (change)="somar()" (keydown)="somar()"/>
+</label>
+
+<br/>
+<label for="">
+    Numero 2:
+    <input type="number" [(ngModel)]="numero2" (change)="somar()" (keyup)="somar()">
+</label>
+
+<br/>
+
+<!-- <button type="submit" (click)="somar()">Somar</button> -->
+<h3>Resultado: {{ resultado }}</h3>
+
